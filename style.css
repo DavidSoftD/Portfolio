@@ -1,1 +1,23 @@
+* {
+  box-sizing: border-box;
+}
 
+header {
+  background-color: 6D6875;
+  margin: 10px;
+  pedding: 5px;
+  text-align: right;
+  color: B5838D;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 75px;
+}
+
+main {
+  text-align: center;
+  background-color: F0EFEB;
+  margin: 35px;
+} 
+  
