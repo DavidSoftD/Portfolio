@@ -51,10 +51,7 @@ h2 {
   padding: 10px;
 } 
 
-.align-center {
-  text-align: center;
-} 
-
 ul {
   list-style-type: none;
+  text-align: center;
 } 
