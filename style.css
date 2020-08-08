@@ -54,3 +54,7 @@ h2 {
 .align-center {
   text-align: center;
 } 
+
+ul {
+  list-style-type: none;
+} 
