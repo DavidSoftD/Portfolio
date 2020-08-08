@@ -3,7 +3,6 @@
 }
 
 header {
-  backgroundr-color: brown;
   margin: 10px;
   pedding: 5px;
   text-align: right;
@@ -29,11 +28,11 @@ p {
 }
 
 hr {
-  border-top: 2px solid brown;
+  border-top: 2px solid CB997E;
 }
 
 footer {
-  background-color: brown;
+  background-color: CB997E;
   color: white;
 } 
 
@@ -48,6 +47,7 @@ h2 {
 
 .link-style {
   font-family: arial, sans-serif;
-  background-color: brown;
+  background-color: CB997E;
   border-radius: 3px;
+  color: CB997E;
 } 
