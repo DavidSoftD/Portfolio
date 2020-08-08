@@ -3,7 +3,7 @@
 }
 
 header {
-  backgroundr: 6D6875;
+  backgroundr-color: brown;
   margin: 10px;
   pedding: 5px;
   text-align: right;
@@ -17,23 +17,23 @@ h1 {
 
 main {
   text-align: center;
-  background: F0EFEB;
+  background-color: F0EFEB;
   margin: 35px;
   line-height: 20px;
 } 
 
 p {
   font-family: Verdana, sans-serif;
-  color: B5838D;
+  color: brown;
   text-align: center;
 }
 
 hr {
-  border-top: 2px solid B5838D;
+  border-top: 2px solid brown;
 }
 
 footer {
-  background: B5838D;
+  background-color: brown;
   color: white;
 } 
 
