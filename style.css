@@ -54,5 +54,16 @@ h2 {
 
 ul {
   list-style-type: none;
+} 
+
+li {
   text-align: center;
+}
+
+a:link {
+  color: brown;
+}  
+
+a:visited {
+  color: black;
 } 
