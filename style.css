@@ -3,7 +3,6 @@
 }
 body {
   text-align: center;
-  background-color: grey;
 } 
 
 header {
@@ -25,6 +24,7 @@ main {
   text-align: center;
   margin: 35px;
   line-height: 20px;
+  background-color: grey;
 } 
 
 p {
