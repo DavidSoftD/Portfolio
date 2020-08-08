@@ -45,3 +45,9 @@ h2 {
 .align-right {
   text-align: right;
 }
+
+.link-style {
+  font-family: arial, sans-serif;
+  background-color: brown;
+  border-radius: 3px;
+} 
