@@ -9,12 +9,11 @@ body {
 header {
   margin-top: 10px;
   pedding: 0px;
-  color: B5838D;
+  background-color: brown;
 }
 
 header p {
   dont-size: 15px;
-  background-color:
 }  
 
 h1 {
