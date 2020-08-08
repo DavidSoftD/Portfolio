@@ -26,7 +26,7 @@ main {
 p {
   font-family: Verdana, sans-serif;
   color: brown;
-  text-align: center;
+  font-size: normal;
 }
 
 hr {
