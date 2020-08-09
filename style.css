@@ -39,6 +39,12 @@ header h1{
   color: #F2E9E4;
 }
 
+/*footer*/
+
+footer {
+  text-align: center;
+}
+
 /* Groups & Items  (Mobile First) */
 
 hr {border-top: 3px solid #577590 }
