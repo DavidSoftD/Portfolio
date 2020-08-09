@@ -62,23 +62,30 @@ hr {border-top: 3px solid #577590 }
   margin: 10px;
 }
 
-/* List */
+/* Lists */
 
 ul {
-  text-decoration: none;
+  list-style-type: none;
 }
 
 /* Links */
 a:link {
-  background-color: #577590
-  color: #0D1B2A;
-  text-align: center;
+  text-decoration: none;
+  background-color:  #577590;
+  color: black;
 }
 
+
 a:hover {
-  background-color: #577590
   color: #0D1B2A;
-  text-align: center;
+}
+
+a:active {
+  color: brown;
+}
+
+a:visited {
+  color: black;
 }
 /* Groups & Items  (Desktop) */
 
