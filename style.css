@@ -23,6 +23,8 @@ main p {
   line-height: 28px;
 }
 
+
+
 /* Header */
 
 header {
@@ -39,13 +41,19 @@ header h1{
   color: #F2E9E4;
 }
 
+
+
 /*footer*/
 
 footer {
   text-align: center;
 }
 
+
+
+
 /* Groups & Items  (Mobile First) */
+
 
 hr {border-top: 3px solid #577590 }
 
@@ -74,16 +82,21 @@ ul {
   list-style-type: none;
 }
 
+
+
 /* Links */
-a:link {
-  text-decoration: none;
-  background-color:  #577590;
+
+a {
+  background-color: #577590;
   color: black;
-  padding: 2px;
-  border-radius: 3px;
-  line-height: 25px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  line-height: 28px;
 }
 
+a:link {
+  text-decoration: none;
+}
 
 a:hover {
   color: #0D1B2A;
@@ -95,7 +108,11 @@ a:active {
 
 a:visited {
   color: black;
+  text-decoration: none;
 }
+
+
+
 /* Groups & Items  (Desktop) */
 
 @media all and (min-width: 800px) {
