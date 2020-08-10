@@ -39,6 +39,7 @@ main section p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 28px;
 }
 section {
   display: flex;
