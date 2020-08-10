@@ -13,16 +13,17 @@
           <!-- Header -->
 
 <header>
-  <h1>David Kansuzyan</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home</li>
-      <li><a href="#">About</li>
-      <li><a href="#">Portfolio</li>
-      <li><a href="#">Contact</li>
-    </ul>
-  </nav>
-
+  <div class="group">
+    <h1 id="Home">David Kansuzyan</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -37,7 +38,7 @@
       <div class="item">
         <div>
 
-          <h2>Introduction</h2>
+          <h2 id="About Me">Introduction</h2>
         </div>
         <div>
           <p>Hi. I'd like to introduce myself. I'm David Kansuzyan. I'm originally from Russia, Moscow and I moved to
@@ -64,7 +65,7 @@
           </div>
           <div>
             <p>I'd lived in Russia for 25 years and been struggling with my life there.
-               One day I won a Green card and my life changed significantly. I didn't know English language at all and as
+               One day I won a Green Card and my life changed significantly. I didn't know English language at all and as
                I was learning it I felt the opportunities showing up right in front of me. After a couple of months I was
                able to go to college and study in foreign language. I found a job (it wasn't the dream job,but it was just a start).
                Now, after four years living in America I've decided to quit college and find a new way, to learn new language
@@ -83,21 +84,42 @@
     </article>
 
     <hr>
-</main>
 
-          <!--Footer -->
-
-<footer class="wrapper">
-    <div>
-      <h3>Contact or Follow Me</h3>
-    </div>
-    <div>
+      <h3>Follow Me On:</h3>
       <ul>
         <li><a target="_blank" href="https://www.instagram.com/davidosssssss/?hl=en">Instagram</a></li>
         <li><a target="_blank" href="https://github.com/DavidSoftD">GitHub</a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/david-kansuzyan-99187b1b4/">LinkedIn</a></li>
       </ul>
-    </div>
+    <hr>
+      <h3>Contact</h3>
+      <section>
+        <div class="item">
+          <p>Email:<a target="_blank" href="emailto:kansuzyan1990@gmail.com">kansuzyan1990@gmail.com</a></p>
+          <form>
+            <label for="user-name"> Name: </label>
+            <input id="user-name" type="text" name="name">
+          </form>
+
+          <form>
+            <label for="user-email"> Email: </label>
+            <input id="user-email" type="text" name="email">
+          </form>
+
+          <form>
+            <label for="form=message"> Your message: </label>
+            <textarea id="form-message" name="message"></textarea>
+          </form>
+
+          <form>
+            <button type="submit"> Submit </button>
+          </form>
+        </div>
+      </section>
+</main>
+
+<footer>
+  <p>© David Kansuzyan</p>
 </footer>
 
 </body>
