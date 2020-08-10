@@ -39,6 +39,19 @@ header h1{
   color: #F2E9E4;
 }
 
+/* Navigation */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul {
+  display: flex;
+
+}
+
+
 
 /*footer*/
 
