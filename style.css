@@ -87,12 +87,15 @@ header nav ul {
 
 header nav ul li a {
   font-size: 25px;
-  padding: 20px 10px;
+  padding: 20px 30px;
   margin: 0px;
   color: #F2E9E4;
   text-decoration: none;
 }
 
+header nav ul li a:hover {
+  color: grey;
+}
 
 /* Footer*/
 
@@ -128,7 +131,7 @@ main a:link {
 }
 
 main a:hover {
-
+  color: grey;
 }
 
 main a:active {
@@ -210,4 +213,5 @@ form button {
     justify-content: space-between;
     align-items: center;
   }
+
 }
