@@ -208,9 +208,9 @@ form button {
     padding: 20px 120px;
   }
 
-  .group {
-    flex-direction: row;
-    justify-content: space-between;
+  .group {'
+    width: 100%;
+    flex-direction: column;
     align-items: center;
   }
 
